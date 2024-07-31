@@ -27,15 +27,15 @@ This application allows users to fill out a form over multiple steps. It collect
 
 2. Chane into the directory:
    ```bash
-   `cd personalized-form`
+   cd personalized-form
 
 3. Install Dependencies
    ```bash
-   `npm install`
+   npm install
 
 4. Start the development server:
    ```bash
-   `npm start`
+   npm start
 
 5. Runs the app in the development mode.\
    Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
