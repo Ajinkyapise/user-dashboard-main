@@ -13,6 +13,16 @@ This application allows users to fill out a form over multiple steps. It collect
 - **Data Validation**: Ensure data integrity with real-time validation and error feedback.
 - **State Management**: Utilize React context for efficient state management.
 
+## Screenshots Along 
+![Step-1](https://github.com/user-attachments/assets/8801e39e-a33e-4992-858a-5bbf408ac922)
+
+![Step-2](https://github.com/user-attachments/assets/e24cae42-e6da-4e59-b3b4-964dd82e56ef)
+![Step-3](https://github.com/user-attachments/assets/5634e337-5c1f-4427-98c0-53c66ae9ac7e)
+![Dashboard-1](https://github.com/user-attachments/assets/e694a35b-eb6b-456f-bba3-0b943ef9c5b5)
+![Dashboard-2](https://github.com/user-attachments/assets/858a510d-2254-44c0-a0f6-8170fb602261)
+
+
+
 ## Setup Instructions
 
 ### Prerequisites
