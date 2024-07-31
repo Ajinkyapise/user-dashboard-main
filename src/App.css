@@ -1,0 +1,93 @@
+/* App.css */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #88b8eb, #f06);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  background: #d7aded;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 95%;
+  max-width: 1400px;
+  margin: 20px auto;
+}
+
+h1 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+button {
+  background-color: #007bff;
+
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input,
+select,
+textarea {
+  width: calc(100% - 40px);
+  padding: 15px;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.step {
+  margin-bottom: 40px;
+}
+
+.dashboard {
+  padding: 40px;
+}
+
+.data-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.data-item p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.centre-stepper {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.step-content {
+  margin-top: 20px;
+}

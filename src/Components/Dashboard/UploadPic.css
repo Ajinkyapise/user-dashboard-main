@@ -1,0 +1,36 @@
+/* UploadPic.css */
+
+.upload-pic {
+  text-align: center;
+  background: #f6379a;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.upload-pic h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.upload-pic input[type="file"] {
+  display: block;
+  margin: 0 auto 20px auto;
+  font-size: 16px;
+  border: none;
+  padding: none;
+  color: #f6379a;
+}
+
+.uploaded-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}

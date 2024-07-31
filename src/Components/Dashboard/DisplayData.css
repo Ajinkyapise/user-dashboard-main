@@ -1,0 +1,168 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f06, #ffba00);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.dashboard-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.sidebar {
+  padding: 20px;
+  background: #3b8ae4;
+  border-right: 1px solid #ddd;
+  height: 1300px;
+}
+
+.sidebar h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #f6379a;
+}
+
+.nav-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  background-color: #f6379a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #0056b3;
+}
+
+.edit-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #f6379a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.edit-button:hover {
+  background-color: #e63946;
+}
+
+.color-button {
+  width: 50%;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #f6379a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.color-button:hover {
+  background-color: #e63946;
+}
+
+.main-content {
+  padding: 20px;
+  background: linear-gradient(135deg, #f06, #513be4);
+}
+
+.card-section {
+  margin-bottom: 20px;
+}
+
+.card-section .MuiCardContent-root {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  color: #513be4;
+  margin-bottom: 10px;
+}
+
+strong {
+  color: #513be4;
+}
+strong {
+  color: #f06;
+}
+
+.color-swatch {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.color-swatch-square {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.color-palette .color-swatch {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.uploaded-image-container {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: auto;
+}
+
+.uploaded-image {
+  max-width: 100px;
+  max-height: 100px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+.Title-display {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1976d2;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
