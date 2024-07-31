@@ -13,12 +13,45 @@ This application allows users to fill out a form over multiple steps. It collect
 - **Data Validation**: Ensure data integrity with real-time validation and error feedback.
 - **State Management**: Utilize React context for efficient state management.
 
-## Screenshots Along 
+## Screenshots 
+Step-1
+Collects personal details including first name, last name, age, and location. Includes validation and error handling.
+This page allows user to-
+Enter your first name and last name.
+Select your age between 18 and 99 using the slider.
+Choose your location from the dropdown menu.
 ![Step-1](https://github.com/user-attachments/assets/8801e39e-a33e-4992-858a-5bbf408ac922)
 
+
+Step-2
+Collects physical attributes including height, weight, skin color, hair color, and eye color. Includes validation and error handling.
+This page allows user to-
+- Select height and weight using sliders.
+- Choose skin color, hair color, and eye color from the dropdown menus.
 ![Step-2](https://github.com/user-attachments/assets/e24cae42-e6da-4e59-b3b4-964dd82e56ef)
+
+
+Step-3
+Collects additional information such as body type, clothing preferences, and favorite retailers. Includes validation and error handling.
+- This page allows user to-
+- Select your body type from the dropdown menu.
+- Enter your clothing preferences.
+- List your favorite retailers.
 ![Step-3](https://github.com/user-attachments/assets/5634e337-5c1f-4427-98c0-53c66ae9ac7e)
+
+
+Dashboard-1
+This screen shows the first half of the dashboard page.
+This page allows user to-
+- Upload a profile picture.
+- Use the edit button to modify all the provided information.
+- Navigate to different parts of the dashboard using the navigation tab.
+- View all the entered details from the previous steps
+
 ![Dashboard-1](https://github.com/user-attachments/assets/e694a35b-eb6b-456f-bba3-0b943ef9c5b5)
+
+Dashboard-2
+This page also allows to get a color recommendation
 ![Dashboard-2](https://github.com/user-attachments/assets/858a510d-2254-44c0-a0f6-8170fb602261)
 
 
